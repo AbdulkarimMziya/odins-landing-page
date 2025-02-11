@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit&family=Roboto&display=swap');
+
 * {
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
-    font: 'Roboto';
+    font-family: 'Roboto';
 }
 
 body {
@@ -31,6 +33,10 @@ section.header, footer {
     font-size: 18px;
     color: #E5E7EB;
 }
+.hero img {
+   width: 400px;
+   height: auto;
+}
 
 section.header {
     padding: 8px;
@@ -47,4 +53,30 @@ section.header {
     padding: 0;
     display: flex;
     gap: 24px;
+}
+
+/* Hero Section Layout */
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin: 80px 0px;
+}
+
+.hero .left {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.buttons {
+    background: #3882F6;
+    padding: 4px 24px;
+    border-radius: 4px;
+    align-self: flex-start;
+}
+
+.hero img {
+  
 }
