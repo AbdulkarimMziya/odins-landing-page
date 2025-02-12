@@ -8,7 +8,7 @@
     font-family: "Roboto";
 }
 
-section.banner {
+section.banner, footer {
     background: #1F2937;
 }
 
@@ -61,6 +61,15 @@ section.testimonial {
     font-size: 24px;
     font-weight: 900;
 }
+
+footer {
+    font-size: 16px;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 28px;
+}
+
+
 
 /* Header Layout */
 
@@ -167,7 +176,6 @@ section.information {
 /* Call-to-Action Layout */
 
 section.call-to-action {
-    outline: 2px solid blue;
     padding: 80px;
 }
 
@@ -180,6 +188,7 @@ section.call-to-action {
 }
 
 .action-main-text {
+    font-size: 24px;
     font-weight: 900;
 }
 
@@ -195,3 +204,4 @@ section.call-to-action {
     align-content: center;
     outline: 2px solid #F9FAF8;
 }
+
